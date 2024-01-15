@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.top-list{
+    
+    background-color: white;
+}
+
+.top-list img {
+    height: 60px;
+    object-fit: contain;
+    transform: translate(100px);
+}
+
+.social-media{
+    position: absolute;
+    top: 0%;
+    right: 0 ;
+    justify-content: flex-end;
+    transform: translate(-50%, 0);
+}
+.social-media2{
+    position: absolute;
+    bottom: 0%;
+    right: 0 ;
+    justify-content: flex-end;
+    transform: translate(-15%, 0);
+    
+}
+.social-media2 img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;  
+    padding: 10px; 
+
+}
+.social-media img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;  
+    padding: 10px; 
+
+}
+.menu{
+    background-color: aquamarine;
+    
+    padding-left: 60px;
+    height: 400px;
+}
+.menu .links{
+    padding: 20px;
+
+}
+.menu .btn{
+    position: absolute;
+    top: 8%;
+    right: 12%;    
+}
+.menu button{
+    padding: 0px 20px;
+    font-style: italic;
+}
+.menu .links a{
+    padding: 20px;
+    font-style: italic;
+}
+.menu h2{
+    font-style: italic;
+}
+.menu img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 111px;
+    padding: 10px; 
+    position: absolute;
+    top: 10%;
+    right: 0;
+}
+.menu .text button{
+    background-color: green;
+    margin: 20px 0px;
+    padding: 10px;
+}
+.menu .text{
+    margin-left: 40px;
+    height: 400px;
+    width: 400px;
+}
+.doun-list{
+    margin-top: 100px;
+}
+.doun-list h2{
+    margin: 10% 50% 5%;
+    height: 100%;
+    width: 100%;
+    font-style: italic;
+    color: rgb(4, 53, 2);
+}
+.doun-list img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    
+}
+.doun-list a{
+    
+    justify-content: space-around;
+    margin: 20px;
+    
+}
